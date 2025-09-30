@@ -1,0 +1,47 @@
+class animal{
+ 
+    public void sonido(){
+        System.out.println("animal hace sonido");
+
+
+}
+    }
+
+
+class perro extends animal{
+     public void sonido(){
+         System.out.println("guau guau guau");
+
+    }
+
+}
+
+
+class gato extends animal{
+     public void sonido(){
+         System.out.println("miau miau miau");
+
+    }
+
+}
+
+
+public class Herencia {
+    public static void main(String[] args) {
+        animal shayla = new animal();
+        
+        shayla.sonido();
+        
+        shayla = new perro();
+        
+        shayla.sonido();
+        
+        shayla = new gato();
+        
+        shayla.sonido();
+        
+        
+      
+    }
+
+}
